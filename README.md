@@ -46,36 +46,36 @@ Here are some really great submissions we were getting from various supports:
 This repository contains all of the ports that have been affected as a result of these changes. The symbolic linking logic has has been replaced with PM's `bind_directory`, which require testing. This is a complete listing of the affected ports needing testing. To download the whole collection, [**click this link**](https://github.com/t0b10-r3tr0/PortMaster-Releases/archive/refs/heads/main.zip). To downoad an individual port, navigate to the appropriate directory, then the corresponding `.zip` file, and click the button titled *Download raw file*.
 
 ```
-+-----------------------------------------+----------+------------+----------------------------+
-| Port Name                               |  Knulli  |  Other CFW |          Notes             |
-+-----------------------------------------+----------+------------+----------------------------+
-| Abes Adventure                          |          |            |                            |
-| Alien vs Predator                       |          |  Verified  |                            |
-| Angband                                 |          |            |                            |
-| Anodyne                                 |          |            |                            |
-| Bleed                                   |          |            |                            |
-| Bleed2                                  | Verified |            |                            |
-| Blockout                                |          |            |                            |
-| Blossom Tales II                        | Verified |            |                            |
-| Clannad Tomoyo After                    |          |            |                            |
-| Fheroes2                                |          |            |                            |
-| Flare Engine                            |          |            |                            |
-| Freedroid                               |          |            |                            |
-| Freesynd                                |          |            |                            |
-| Hocoslamfy                              |          |            |                            |
-| Hydra Castle Labyrinth                  |          |            |                            |
-| Openomf                                 |          |            |                            |
-| PanzerPaladin                           | Verified |            |                            |
-| RigelEngine                             |          |            |                            |
-| Shipwreck                               |          |            |                            |
-| SteelAssault                            | Verified |            |                            |
-| TowerFall Ascension                     |          |            |                            |
-| Air                                     |          |          * | Need Cebion's updated      |
-| Clannad                                 |          |          * | libGL/libEGL to be added   |
-| Kanon                                   |  Crash   |          * | L                          |
-| Little Busters!                         |          |          * | to the rlvm runtime        |
-| Planetarian                             |          |          * |                            |
-+-----------------------------------------+----------+------------+----------------------------+
++-----------------------------------------+----------+------------+----------------------------------+
+| Port Name                               |  Knulli  |  Other CFW |          Notes                   |
++-----------------------------------------+----------+------------+----------------------------------+
+| Abes Adventure                          | Verified |  Verified  |                                  |
+| Alien vs Predator                       |          |  Verified  |                                  |
+| Angband                                 | Verified |  Verified  | Knulli: Scale issue on 640x480   |
+| Anodyne                                 |          |            |                                  |
+| Bleed                                   |          |            |                                  |
+| Bleed2                                  | Verified |            |                                  |
+| Blockout                                | Verified |  Verified  | Knulli: Scale issue on 64x480    |
+| Blossom Tales II                        | Verified |            |                                  |
+| Clannad Tomoyo After                    |          |            |                                  |
+| Fheroes2                                |          |            |                                  |
+| Flare Engine                            | Verified |  Verified  | Add d-pad only support           |
+| Freedroid                               | Verified |  Verified  | Add d-pad only support           |
+| Freesynd                                | Verified |  Verified  | Add d-pad only support           |
+| Hocoslamfy                              | Verified |  Verified  |                                  |
+| Hydra Castle Labyrinth                  | Verified |  Verified  | ROCKNIX: A/X swapped with B/Y    |
+| Openomf                                 | Verified |  Verified  |                                  |
+| PanzerPaladin                           | Verified |            |                                  |
+| RigelEngine                             |          |            |                                  |
+| Shipwreck                               |          |            |                                  |
+| SteelAssault                            | Verified |            |                                  |
+| TowerFall Ascension                     |          |            |                                  |
+| Air                                     |          |          * | Need Cebion's updated            |
+| Clannad                                 |          |          * | libGL/libEGL to be added         |
+| Kanon                                   |  Crash   |          * | L                                |
+| Little Busters!                         |          |          * | to the rlvm runtime              |
+| Planetarian                             |          |          * |                                  |
++-----------------------------------------+----------+------------+----------------------------------+
 ```
 
 ### Contributing
