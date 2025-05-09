@@ -7,7 +7,7 @@ In order to support the exFAT file system on [Knulli](https://knulli.org/) and [
 ### Installation Instructions:
 
 The instructions will apply to **all** of the ports tested in this post:
-1. If you have the port already, uninstall it through PortMaster GUI: Manage Games > Game Info > Uninstall. 
+1. If you have the port already, uninstall it through PortMaster GUI: Manage Games > Game Info > Uninstall.
 2. Copy the `.zip` file to the `autoinstall` directory within the [PortMaster directory for your device](https://portmaster.games/installation.html#via-zip).
   * Option 1: Use SMB, SSH, or any other method provided by your CFW
   * Option 2: If your device supports it, remove micro-sd from device and copy files with computer
@@ -35,7 +35,7 @@ In order consider the test passed for your device / CFW combo the following cond
 
 Here are some really great submissions we were getting from various supports:
 
-|                                       |                                       |                                 
+|                                       |                                       |
 |:-------------------------------------:|:-------------------------------------:|
 | arcade-classic-hotpink.jpg            | arcade-classic-red.jpg                |
 | ![Test Results 1](https://github.com/t0b10-r3tr0/PortMaster-Releases/blob/main/test-result-1.png?raw=true) | ![Test Results 2](https://github.com/t0b10-r3tr0/PortMaster-Releases/blob/main/test-result-2.png?raw=true)             |                                       |
@@ -49,35 +49,47 @@ This repository contains all of the ports that have been affected as a result of
 +-----------------------------------------+----------+------------+----------------------------------+
 | Port Name                               |  Knulli  |  Other CFW |          Notes                   |
 +-----------------------------------------+----------+------------+----------------------------------+
-| Abes Adventure                          | Verified |  Verified  |                                  |
 | Alien vs Predator                       |          |  Verified  |                                  |
-| Angband                                 | Verified |  Verified  | Knulli: Scale issue on 640x480   |
 | Anodyne                                 |          |            |                                  |
 | Bleed                                   |          |            |                                  |
 | Bleed2                                  | Verified |            |                                  |
-| Blockout                                | Verified |  Verified  | Knulli: Scale issue on 64x480    |
 | Blossom Tales II                        | Verified |            |                                  |
-| Clannad Tomoyo After                    |          |            |                                  |
 | Fheroes2                                |          |            |                                  |
+| PanzerPaladin                           | Verified |            |                                  |
+| RigelEngine                             |          |            |                                  |
+| Shipwreck                               |          |            |                                  |
+| SteelAssault                            | Verified |            |                                  |
+| TowerFall Ascension                     |          |            |                                  |
++-----------------------------------------+----------+------------+----------------------------------+
+
+Runtime update required (rvlm):
++-----------------------------------------+----------+------------+----------------------------------+
+| Port Name                               |  Knulli  |  Other CFW |          Notes                   |
++-----------------------------------------+----------+------------+----------------------------------+
+| Air                                     |          |          * | Need Cebion's updated            |
+| Clannad                                 |          |          * | libGL/libEGL to be added         |
+| Clannad Tomoyo After                    |          |          * |                                  |
+| Kanon                                   |  Crash   |          * | L                                |
+| Little Busters!                         |          |          * | to the rlvm runtime              |
+| Planetarian                             |          |          * |                                  |
++-----------------------------------------+----------+------------+----------------------------------+
+
+Testing complete:
++-----------------------------------------+----------+------------+----------------------------------+
+| Port Name                               |  Knulli  |  Other CFW |          Notes                   |
++-----------------------------------------+----------+------------+----------------------------------+
+| Abes Adventure                          | Verified |  Verified  |                                  |
+| Angband                                 | Verified |  Verified  | Knulli: Scale issue on 640x480   |
+| Blockout 2                              | Verified |  Verified  | Knulli: Scale issue on 640x480   |
 | Flare Engine                            | Verified |  Verified  | Add d-pad only support           |
 | Freedroid                               | Verified |  Verified  | Add d-pad only support           |
 | Freesynd                                | Verified |  Verified  | Add d-pad only support           |
 | Hocoslamfy                              | Verified |  Verified  |                                  |
 | Hydra Castle Labyrinth                  | Verified |  Verified  | ROCKNIX: A/X swapped with B/Y    |
 | Openomf                                 | Verified |  Verified  |                                  |
-| PanzerPaladin                           | Verified |            |                                  |
-| RigelEngine                             |          |            |                                  |
-| Shipwreck                               |          |            |                                  |
-| SteelAssault                            | Verified |            |                                  |
-| TowerFall Ascension                     |          |            |                                  |
-| Air                                     |          |          * | Need Cebion's updated            |
-| Clannad                                 |          |          * | libGL/libEGL to be added         |
-| Kanon                                   |  Crash   |          * | L                                |
-| Little Busters!                         |          |          * | to the rlvm runtime              |
-| Planetarian                             |          |          * |                                  |
 +-----------------------------------------+----------+------------+----------------------------------+
 ```
 
 ### Contributing
 
-You can download the ports to your device and join us in the [Discord testing thread](https://discord.com/channels/1122861252088172575/1315085237788868608) to check the current status of the testing progress. 
+You can download the ports to your device and join us in the [Discord testing thread](https://discord.com/channels/1122861252088172575/1315085237788868608) to check the current status of the testing progress.
