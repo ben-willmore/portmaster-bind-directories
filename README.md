@@ -49,44 +49,41 @@ This repository contains all of the ports that have been affected as a result of
 +-----------------------------------------+----------+------------+----------------------------------+
 | Port Name                               |  Knulli  |  Other CFW |          Notes                   |
 +-----------------------------------------+----------+------------+----------------------------------+
+| Air                                     |          |            |                                  |
 | Alien vs Predator                       |          |  Verified  |                                  |
 | Anodyne                                 |          |            |                                  |
 | Bleed                                   |          |            |                                  |
 | Bleed2                                  | Verified |            |                                  |
 | Blossom Tales II                        | Verified |            |                                  |
+| Clannad                                 |          |            |                                  |
+| Clannad Tomoyo After                    |          |            |                                  |
 | Fheroes2                                |          |            |                                  |
+| Kanon                                   | Verified |            |                                  |
+| Little Busters!                         |          |            |                                  |
 | PanzerPaladin                           | Verified |            |                                  |
+| Planetarian                             |          |            |                                  |
 | RigelEngine                             |          |            |                                  |
 | Shipwreck                               |          |            |                                  |
 | SteelAssault                            | Verified |            |                                  |
 | TowerFall Ascension                     |          |            |                                  |
 +-----------------------------------------+----------+------------+----------------------------------+
 
-Runtime update required (rvlm):
-+-----------------------------------------+----------+------------+----------------------------------+
-| Port Name                               |  Knulli  |  Other CFW |          Notes                   |
-+-----------------------------------------+----------+------------+----------------------------------+
-| Air                                     |          |          * | Need Cebion's updated            |
-| Clannad                                 |          |          * | libGL/libEGL to be added         |
-| Clannad Tomoyo After                    |          |          * |                                  |
-| Kanon                                   |  Crash   |          * | L                                |
-| Little Busters!                         |          |          * | to the rlvm runtime              |
-| Planetarian                             |          |          * |                                  |
-+-----------------------------------------+----------+------------+----------------------------------+
-
 Testing complete:
 +-----------------------------------------+----------+------------+----------------------------------+
 | Port Name                               |  Knulli  |  Other CFW |          Notes                   |
 +-----------------------------------------+----------+------------+----------------------------------+
-| Abes Adventure                          | Verified |  Verified  |                                  |
-| Angband                                 | Verified |  Verified  | Knulli: Scale issue on 640x480   |
-| Blockout 2                              | Verified |  Verified  | Knulli: Scale issue on 640x480   |
 | Flare Engine                            | Verified |  Verified  | Add d-pad only support           |
 | Freedroid                               | Verified |  Verified  | Add d-pad only support           |
 | Freesynd                                | Verified |  Verified  | Add d-pad only support           |
-| Hocoslamfy                              | Verified |  Verified  |                                  |
++-----------------------------------------+----------+------------+----------------------------------+
+
+Bind mount issues fixed, but some testing notes remain:
++-----------------------------------------+----------+------------+----------------------------------+
+| Port Name                               |  Knulli  |  Other CFW |          Notes                   |
++-----------------------------------------+----------+------------+----------------------------------+
+| Angband                                 | Verified |  Verified  | Knulli: Scale issue on 640x480   |
+| Blockout 2                              | Verified |  Verified  | Knulli: Scale issue on 640x480   |
 | Hydra Castle Labyrinth                  | Verified |  Verified  | ROCKNIX: A/X swapped with B/Y    |
-| Openomf                                 | Verified |  Verified  |                                  |
 +-----------------------------------------+----------+------------+----------------------------------+
 ```
 
